@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(232, 228, 224);
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.output {
+  width: 350px;
+  height: 80px;
+  background-color: rgb(108, 96, 96);
+  color: white;
+  text-align: right;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 25px;
+  border-left: none;
+  padding: 10px 5px 10px 5px;
+}
+button {
+  width: 90px;
+  height: 70px;
+  border: none;
+  outline: none;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover {
+  background-color: rgba(82, 79, 75, 0.751);
+  color: white;
+}
+.operater {
+  border-right: none;
+  background-color: goldenrod;
+  color: white;
+  font-size: 20px;
+}
+.operater:hover {
+  background-color: rgb(29, 24, 1);
+}
+.fn-keys {
+  background-color: rgba(146, 122, 122, 0.715);
+  font-size: 20px;
+}
+.fn-keys:hover {
+  background-color: rgb(132, 186, 186);
+}
